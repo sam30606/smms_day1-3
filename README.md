@@ -6,10 +6,14 @@
 
 ```
 {
-    "name": "smms_day1-3",
-    "script": "npm start",
-    "instances": 4,
-    "exec_mode": "cluster"
+    "apps": [
+        {
+            "name": "smms_day1-3",
+            "script": "./dist/main.js",
+            "instances": 4,
+            "exec_mode": "cluster"
+        }
+    ]
 }
 ```
 
